@@ -13,8 +13,8 @@ let project = Project(
                     "UILaunchStoryboardName": "LaunchScreen.storyboard",
                 ]
             ),
-            sources: ["Myapp/Sources/**"],
-            resources: ["Myapp/Resources/**"],
+            sources: ["Sources/**"],
+            resources: ["Resources/**"],
             dependencies: []
         ),
         .target(
